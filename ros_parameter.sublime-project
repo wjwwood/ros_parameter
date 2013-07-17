@@ -1,0 +1,25 @@
+{
+	"word_wrap": "on",
+    "wrap_width": 80,
+	"folders":
+	[
+		{
+			"path": "./"
+		}
+	],
+	"settings":
+	{
+		"sublimeclang_options":
+		[
+			// "-I/usr/lib/c++/v1",
+			"-I/usr/local/include",
+			"-I/usr/include",
+			"-I${folder:${project_path:ros_parameter.sublime-project}}/include",
+			"-I/Users/william/hydro/install_isolated/include"
+		],
+		"sublimeclang_additional_language_options":
+		{
+			// "c++": ["-std=c++11", "-stdlib=libc++"]
+		}
+	}
+}
